@@ -1,4 +1,4 @@
-import styled, { css } from "styled-components";
+import styled, { css } from "styled-components/macro";
 import { Mic, Headset, Settings } from "styled-icons/material";
 
 const IconCSS = css`
