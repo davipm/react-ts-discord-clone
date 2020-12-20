@@ -5,7 +5,7 @@ import { PersonAdd, Settings } from "styled-icons/material";
 export const Container = styled.div`
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   padding: 5px 3px;
   border-radius: 5px;
   background-color: transparent;
