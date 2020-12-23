@@ -1,9 +1,9 @@
-import { useEffect, useRef, MutableRefObject } from "react";
+import { useEffect, useRef } from "react";
 import ChannelMessage, { Mention } from "../channelMessage";
 import { Container, Input, InputIcon, InputWrapper, Messages } from "./styles";
 
 export default function ChannelData() {
-  const messageRef = useRef() as MutableRefObject<HTMLDivElement>;
+  const messageRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
     const divElement = messageRef.current;
